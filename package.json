@@ -1,0 +1,28 @@
+{
+  "name": "nova-pasta-(2)",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "resolutions": {
+    "graceful-fs": "4.2.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js --watch",
+    "preinstall": "npx npm-force-resolutions"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bad-request-error": "^1.0.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "http-status": "^1.5.3",
+    "mongodb": "^4.12.1",
+    "mongoose": "^6.8.0",
+    "nodemon": "^2.0.20",
+    "server-error": "^1.0.1"
+  }
+}
